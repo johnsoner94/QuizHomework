@@ -1,14 +1,6 @@
 {
   "images" : [
-    {
-      "idiom" : "iphone",
-      "scale" : "1x",
-      "filename" : "Icon@2x.png"
-    },
-    {
-      "idiom" : "iphone",
-      "scale" : "2x"
-    }
+
   ],
   "info" : {
     "version" : 1,

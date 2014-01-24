@@ -33,7 +33,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="showAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="TIf-vr-CV2"/>
+                                    <action selector="showAnswer:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="oex-Ew-1Xd"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5tm-Es-LvD">
@@ -53,8 +53,8 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="answerLabel" destination="lbX-tI-HNh" id="Wg9-b0-Bng"/>
-                        <outlet property="questionLabel" destination="5tm-Es-LvD" id="ukN-1J-PS6"/>
+                        <outlet property="answerField" destination="lbX-tI-HNh" id="uu4-ZO-MmD"/>
+                        <outlet property="questionField" destination="5tm-Es-LvD" id="D9b-sx-3bD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

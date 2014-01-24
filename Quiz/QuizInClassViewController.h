@@ -17,12 +17,10 @@
     NSMutableArray *answers;
     
     // The view objects - don't worry about IBOutlet - we'll talk about it shortly
-    IBOutlet UILabel *questionField;
-    IBOutlet UILabel *answerField;
 }
 - (IBAction)showQuestion:(id)sender;
+@property (weak, nonatomic) IBOutlet UILabel *questionField;
 - (IBAction)showAnswer:(id)sender;
-@property (weak, nonatomic) IBOutlet UILabel *questionLabel;
-@property (weak, nonatomic) IBOutlet UILabel *answerLabel;
+@property (weak, nonatomic) IBOutlet UILabel *answerField;
 
 @end
